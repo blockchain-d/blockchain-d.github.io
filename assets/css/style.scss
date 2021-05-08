@@ -8,3 +8,8 @@
   opacity: 0.6;
   background: url("../images/discord.png") 0 0 no-repeat;
 }
+
+header h1:before {
+  content: "0x ";
+  font-size: 32px;
+}

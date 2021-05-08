@@ -108,3 +108,5 @@ a { color: #63c0f5; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
 #a-title { text-decoration: none; }
 
 .btn-discord .icon { opacity: 0.6; background: url("../images/discord.png") 0 0 no-repeat; }
+
+header h1:before { content: "0x "; font-size: 32px; }

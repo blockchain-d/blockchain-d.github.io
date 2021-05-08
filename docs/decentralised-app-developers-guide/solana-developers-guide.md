@@ -1,0 +1,8 @@
+---
+layout: default
+---
+
+1. Solana Programs Library (SPL) - The Solana Program Library (SPL) is a collection of on-chain programs targeting the Sealevel parallel runtime. These programs are tested against Solana's implementation of Sealevel, solana-runtime, and deployed to its mainnet.[API Docs](https://docs.rs/solana-program/1.4.17/solana_program/index.html) [Developer Doc](https://spl.solana.com)
+    1. Token Program [Developer Doc](https://spl.solana.com/token) - This is the most interesting program. This is where you can create, mint, transfer, delegate and do all the "core" stuff. This is implemented as [SPL Token](https://docs.rs/spl-token/3.0.1/spl_token/index.html), which is an ERC20-like Token program for the Solana blockchain  [Source Code](https://github.com/solana-labs/solana-program-library/tree/master/token) [JS Lib](https://github.com/solana-labs/solana-program-library/blob/master/token/js/client/token.js)
+        1. [Non Fungible Token](https://spl.solana.com/token#non-fungible-tokens) - An NTF is simply a token type where only a single token has been minted. [Creating NFTs](https://spl.solana.com/token#example-create-a-non-fungible-token)
+    2. Name Service - [Developer Doc](https://spl.solana.com/name-service) - This is another interesting service for issuing and managing ownership of: domain names, Solana Pubkeys, URLs, twitter handles, ipfs cid's etc. [Source Code](https://github.com/solana-labs/solana-program-library/tree/master/name-service)

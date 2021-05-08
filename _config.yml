@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: bl0ckcha1n-d
+title: BL0CKCHA1N-d
 email: https://discord.gg/Pwth746wpU
 description: >- # this means to ignore newlines until "baseurl:"
   Copyleft. 2021. MIT License.
