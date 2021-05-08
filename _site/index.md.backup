@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=9593c5ce064bded1d9283aa7df3de068a284ca5e">
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>bl0ckcha1n-d | Copyleft. 2021. MIT License.</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="bl0ckcha1n-d" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Copyleft. 2021. MIT License." />
+<meta property="og:description" content="Copyleft. 2021. MIT License." />
+<link rel="canonical" href="http://localhost:4000/index.md.backup" />
+<meta property="og:url" content="http://localhost:4000/index.md.backup" />
+<meta property="og:site_name" content="bl0ckcha1n-d" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="bl0ckcha1n-d" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/index.md.backup","description":"Copyleft. 2021. MIT License.","@type":"WebPage","headline":"bl0ckcha1n-d","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <a id="a-title" href="/">
+            <h1>bl0ckcha1n-d</h1>
+        </a>
+        <h2>Copyleft. 2021. MIT License.</h2>
+
+        <section id="downloads">
+            
+            <a href="https://github.com/blockchain-d/blockchain-d.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+            <a href="https://discord.gg/Pwth746wpU" class="btn btn-discord"><span class="icon"></span>Join our Discord</a>
+        </section>
+    </div>
+</header>
+
+<div class="container">
+    <section id="main_content">
+        Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+
+[Link to another page](./another-page.html).
+
+There should be whitespace between paragraphs.
+
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+
+# Header 1
+
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+## Header 2
+
+> This is a blockquote following a header.
+>
+> When something is important enough, you do it even if the odds are not in your favor.
+
+### Header 3
+
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
+
+#### Header 4
+
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+
+##### Header 5
+
+1.  This is an ordered list following a header.
+2.  This is an ordered list following a header.
+3.  This is an ordered list following a header.
+
+###### Header 6
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+### There's a horizontal rule below this.
+
+* * *
+
+### Here is an unordered list:
+
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
+
+### And an ordered list:
+
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
+
+### And a nested list:
+
+- level 1 item
+    - level 2 item
+    - level 2 item
+        - level 3 item
+        - level 3 item
+- level 1 item
+    - level 2 item
+    - level 2 item
+    - level 2 item
+- level 1 item
+    - level 2 item
+    - level 2 item
+- level 1 item
+
+### Small image
+
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+
+### Large image
+
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
+
+
+### Definition lists can be used with HTML syntax.
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
+
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
+
+```
+The final element.
+```
+
+    </section>
+</div>
+
+
+</body>
+</html>
