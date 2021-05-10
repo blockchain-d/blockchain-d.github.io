@@ -12,6 +12,9 @@ On Chain programs can be written in C, Rust and are compiled by LLVM. JS Binding
 4. [Examples using SPL](https://github.com/solana-labs/solana-program-library/tree/master/examples)
 5. [Rust SDK](https://docs.rs/solana-sdk/1.6.8/solana_sdk/) [Github](https://github.com/solana-labs/solana/tree/master/sdk)
 6. [Docker Minimal](https://github.com/solana-labs/solana/tree/master/sdk/docker-solana)
+7. [Rust Programming on Solana](https://paulx.dev/blog/2021/01/14/programming-on-solana-an-introduction/#entrypoint-rs-programs-and-accounts)
+8. [Rust In Blockchain](https://rustinblockchain.org)
+9. [brson's blog](https://brson.github.io/blog/index.html)
 
 # Learn the language
 

@@ -36,3 +36,5 @@ layout: default
 9. [Hybrid PoW/PoS](https://academy.binance.com/en/articles/hybrid-pow-pos-consensus-explained)
 10. Sieve
 11. PoWeight
+12. [Proof of Person](https://docs.idena.io/docs/wp/technology#proof-of-personhood), [Wikipedia](https://en.wikipedia.org/wiki/Proof_of_personhood), [Other notes](https://gist.github.com/resilience-me/f690d50eecb6ca7b5fdf1e4c49cca0e1)
+13. [Proof of Person Work](https://eprint.iacr.org/2016/145.pdf)
