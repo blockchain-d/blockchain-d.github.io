@@ -12,7 +12,7 @@ layout: default
   - economics terms 101
   - jobs? career?
 - bl0ckchain developers
-  - Concensous Protocols
+  - [Concensous Protocols](docs/blockchain-developers/concensus-protocols.md)
 - Decentralised Apps developers
   - Ethereum (Solidity, JS)
   - [Solana (Rust, C, JS)](docs/decentralised-app-developers-guide/solana-developers-guide.md)

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=4de09bacf0ae87350c64a8195e84d8f54ab8f634">
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Articles on concensus algorithms | BL0CKCHA1N-d</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Articles on concensus algorithms" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Copyleft. 2021. MIT License." />
+<meta property="og:description" content="Copyleft. 2021. MIT License." />
+<link rel="canonical" href="http://localhost:4000/docs/blockchain-developers/concensus-protocols.html" />
+<meta property="og:url" content="http://localhost:4000/docs/blockchain-developers/concensus-protocols.html" />
+<meta property="og:site_name" content="BL0CKCHA1N-d" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Articles on concensus algorithms" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/docs/blockchain-developers/concensus-protocols.html","description":"Copyleft. 2021. MIT License.","@type":"WebPage","headline":"Articles on concensus algorithms","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <a id="a-title" href="/">
+            <h1>BL0CKCHA1N-d</h1>
+        </a>
+        <h2>Copyleft. 2021. MIT License.</h2>
+
+        <section id="downloads">
+            
+            <a href="https://github.com/blockchain-d/blockchain-d.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+            <a href="https://discord.gg/Pwth746wpU" class="btn btn-discord"><span class="icon"></span>Join our Discord</a>
+        </section>
+    </div>
+</header>
+
+<div class="container">
+    <section id="main_content">
+        <h1 id="0-articles-on-concensus-algorithms">0. Articles on concensus algorithms</h1>
+
+<ol>
+  <li><a href="https://files.osf.io/v1/resources/8jxaq/providers/osfstorage/5c9ca949e0a7de001994abac?action=download&amp;direct&amp;version=1">https://files.osf.io/v1/resources/8jxaq/providers/osfstorage/5c9ca949e0a7de001994abac?action=download&amp;direct&amp;version=1</a></li>
+  <li><a href="https://res.mdpi.com/d_attachment/mathematics/mathematics-08-01782/article_deploy/mathematics-08-01782-v2.pdf">https://res.mdpi.com/d_attachment/mathematics/mathematics-08-01782/article_deploy/mathematics-08-01782-v2.pdf</a></li>
+</ol>
+
+<h1 id="1-a-non-comprehensive-table-of-comparison-amongst-concensus-protocols">1. A Non Comprehensive table of comparison amongst concensus protocols</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">PoWork</th>
+      <th style="text-align: left">PoStake</th>
+      <th style="text-align: left">PoSpace</th>
+      <th style="text-align: left">PoElapsed Time</th>
+      <th style="text-align: left">PoHistory</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">computing the hash values and validating the transactions until a specified number of trailing zeros are found in the hash value.The number that generates the hash with the specified number of trailing zeros is known as a nonce. A nonce is defined as a random number that generates the specified number of trailing zeros in the hash function.</td>
+      <td style="text-align: left">The miner has to allocate a particular part of his cryptocurrency to start validating. If the miner succeeds in invalidating the transaction, then the award is the stake they had pledged initially, along with certain transaction fees</td>
+      <td style="text-align: left">PoSpace consumes disk space and incentivizes miners with the most considerable disk space allocated to a block. Implemented using the hard-to-pebble graphs, it’s used to solve the <a href="https://math.mit.edu/research/highschool/primes/materials/2016/conf/10-2%20Bhupatiraju-Kuszmaul-Vale.pdf">pebbling game</a>. Once the solutions are computed, the miners compare their solutions, and the solution with the best time and space complexity is rewarded with the next block.</td>
+      <td style="text-align: left">Each node in the network is assigned a random waiting time. The first node to complete the randomly chosen period validates the new block. The specialized hardware puts the processor to sleep during the wait time—this repeats over all the blocks in the network.</td>
+      <td style="text-align: left">High frequency <a href="https://www.youtube.com/watch?v=_-feyaZZjEw&amp;t=11s">Verifiable Delay Function</a>. A Verifiable Delay Function requires a specific number of sequential steps to evaluate, yet produces a unique output that can be efficiently and publicly verified.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">bitcoint, litecoint</td>
+      <td style="text-align: left">ethereum</td>
+      <td style="text-align: left">Burstcoin, SpaceMint</td>
+      <td style="text-align: left">Sawtooth (IBM)</td>
+      <td style="text-align: left">Solana</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">power hungry, resource incentive</td>
+      <td style="text-align: left">env friendly, no special hw required</td>
+      <td style="text-align: left">resource biased</td>
+      <td style="text-align: left">specialised hw</td>
+      <td style="text-align: left">env friendly</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">hacker needs 51% control</td>
+      <td style="text-align: left">hacker needs 50%</td>
+      <td style="text-align: left">-</td>
+      <td style="text-align: left">-</td>
+      <td style="text-align: left">-</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Probabilistic-finality</td>
+      <td style="text-align: left">Probabilistic-finality</td>
+      <td style="text-align: left">-</td>
+      <td style="text-align: left">-</td>
+      <td style="text-align: left">-</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="other-interesting-concensus-algorithms">Other interesting Concensus Algorithms</h1>
+
+<ol>
+  <li><a href="https://academy.binance.com/en/articles/proof-of-authority-explained">PoAuthority</a></li>
+  <li><a href="https://academy.binance.com/en/articles/delegated-proof-of-stake-explained">Delegated PoStake</a></li>
+  <li>Byzantine Fault Tolerance</li>
+  <li>Practical Byzantine Fault Tolerance</li>
+  <li>Ripple</li>
+  <li><a href="https://academy.binance.com/en/articles/delayed-proof-of-work-explained">Delayed PoWork</a></li>
+  <li><a href="https://academy.binance.com/en/articles/leased-proof-of-stake-consensus-explained">Leased PoStake</a></li>
+  <li><a href="https://academy.binance.com/en/articles/proof-of-burn-explained">PoBurn</a></li>
+  <li><a href="https://academy.binance.com/en/articles/hybrid-pow-pos-consensus-explained">Hybrid PoW/PoS</a></li>
+  <li>Sieve</li>
+  <li>PoWeight</li>
+</ol>
+
+    </section>
+</div>
+
+
+</body>
+</html>

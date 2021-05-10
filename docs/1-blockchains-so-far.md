@@ -2,17 +2,19 @@
 layout: default
 ---
 
-# Bitcoin
+# 0. A Non Comprehensive list of blockchains
 
-# Ethereum
+## Bitcoin
 
-# Flow
+## Ethereum
 
-# Matic
+## Flow
 
-# Conflux
+## Matic
 
-# Solana 
+## Conflux
+
+## Solana 
 
 "Solana is an open source project implementing a new, high-performance, permissionless blockchain. The Solana Foundation is based in Geneva, Switzerland and maintains the open source project." - [Introduction](https://docs.solana.com/introduction)
 
@@ -33,4 +35,12 @@ layout: default
 
 
 
-# Onflow
+## Onflow
+
+# 1. A Non Comprehensive table of comparison amongst blockchains
+
+
+| Property        | Bitcoin          | Ethereum | Solana |
+|:-------------|:------------------|:------|:------------|
+| concensus    | PoW               | PoS   | PoH         |
+| s            | miners            |       | Validators  |
