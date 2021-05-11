@@ -48,3 +48,4 @@ Table of contents
 |:-------------|:------------------|:------|:------------|
 | concensus    | PoW               | PoS   | PoH         |
 | s            | miners            |       | Validators  |
+

@@ -26,7 +26,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=c5a7f823e23623c66347e17e98966974f1f1a2f4">
+    <link rel="stylesheet" href="/assets/css/style.css?v=01c017e190e78369eb8d751a288619a6d1c4c2e8">
   </head>
   <body>
     <!-- <a id="skip-to-content" href="#content">Skip to the content.</a> -->
@@ -73,48 +73,144 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align: left">PoWork</th>
-      <th style="text-align: left">PoStake</th>
-      <th style="text-align: left">PoSpace</th>
-      <th style="text-align: left">PoElapsed Time</th>
-      <th style="text-align: left">PoHistory</th>
+      <th>Property</th>
+      <th>Proof of Work (PoW)</th>
+      <th>Delayed PoW</th>
+      <th>Proof of Stake (PoStake)</th>
+      <th>Delegated PoStake</th>
+      <th>Leased PoStake</th>
+      <th>Hybrid PoW/PoStake</th>
+      <th>Proof of Space</th>
+      <th>Proof of Elapsed Time</th>
+      <th>Proof of History</th>
+      <th>Proof of Authority</th>
+      <th>Proof of Burn</th>
+      <th>Proof of Weight</th>
+      <th>Proof of Personhood</th>
+      <th>Proof of Person Work</th>
+      <th>Byzantine Fault Tolerance (BFT)</th>
+      <th>Practical BFT</th>
+      <th>Federated BFT</th>
+      <th>Delegated BFT</th>
+      <th>Ripple</th>
+      <th>Sieve</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">computing the hash values and validating the transactions until a specified number of trailing zeros are found in the hash value.The number that generates the hash with the specified number of trailing zeros is known as a nonce. A nonce is defined as a random number that generates the specified number of trailing zeros in the hash function.</td>
-      <td style="text-align: left">The miner has to allocate a particular part of his cryptocurrency to start validating. If the miner succeeds in invalidating the transaction, then the award is the stake they had pledged initially, along with certain transaction fees</td>
-      <td style="text-align: left">PoSpace consumes disk space and incentivizes miners with the most considerable disk space allocated to a block. Implemented using the hard-to-pebble graphs, it’s used to solve the <a href="https://math.mit.edu/research/highschool/primes/materials/2016/conf/10-2%20Bhupatiraju-Kuszmaul-Vale.pdf">pebbling game</a>. Once the solutions are computed, the miners compare their solutions, and the solution with the best time and space complexity is rewarded with the next block.</td>
-      <td style="text-align: left">Each node in the network is assigned a random waiting time. The first node to complete the randomly chosen period validates the new block. The specialized hardware puts the processor to sleep during the wait time—this repeats over all the blocks in the network.</td>
-      <td style="text-align: left">High frequency <a href="https://www.youtube.com/watch?v=_-feyaZZjEw&amp;t=11s">Verifiable Delay Function</a>. A Verifiable Delay Function requires a specific number of sequential steps to evaluate, yet produces a unique output that can be efficiently and publicly verified.</td>
+      <td>Mechanism</td>
+      <td>computing the hash values and validating the transactions until a specified number of trailing zeros are found in the hash value.The number that generates the hash with the specified number of trailing zeros is known as a nonce. A nonce is defined as a random number that generates the specified number of trailing zeros in the hash function.</td>
+      <td> </td>
+      <td>The miner has to allocate a particular part of his cryptocurrency to start validating. If the miner succeeds in invalidating the transaction, then the award is the stake they had pledged initially, along with certain transaction fees</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>PoSpace consumes disk space and incentivizes miners with the most considerable disk space allocated to a block. Implemented using the hard-to-pebble graphs, it’s used to solve the pebbling game. Once the solutions are computed, the miners compare their solutions, and the solution with the best time and space complexity is rewarded with the next block.</td>
+      <td>Each node in the network is assigned a random waiting time. The first node to complete the randomly chosen period validates the new block. The specialized hardware puts the processor to sleep during the wait time—this repeats over all the blocks in the network.</td>
+      <td>High frequency Verifiable Delay Function. A Verifiable Delay Function requires a specific number of sequential steps to evaluate, yet produces a unique output that can be efficiently and publicly verified.</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
-      <td style="text-align: left">bitcoint, litecoint</td>
-      <td style="text-align: left">ethereum</td>
-      <td style="text-align: left">Burstcoin, SpaceMint</td>
-      <td style="text-align: left">Sawtooth (IBM)</td>
-      <td style="text-align: left">Solana</td>
+      <td>Blockchains</td>
+      <td>Bitcoin, Litecoin</td>
+      <td> </td>
+      <td>Ethereum</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>Burstcoint, Spacemint</td>
+      <td>Sawtooth (IBM(</td>
+      <td>Solana</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
-      <td style="text-align: left">power hungry, resource incentive</td>
-      <td style="text-align: left">env friendly, no special hw required</td>
-      <td style="text-align: left">resource biased</td>
-      <td style="text-align: left">specialised hw</td>
-      <td style="text-align: left">env friendly</td>
+      <td>Property</td>
+      <td>Power hungy, lots of resources</td>
+      <td> </td>
+      <td>env friendly, no special hw required</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>resource biased</td>
+      <td>specialized hw required</td>
+      <td>env friendly</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
-      <td style="text-align: left">hacker needs 51% control</td>
-      <td style="text-align: left">hacker needs 50%</td>
-      <td style="text-align: left">-</td>
-      <td style="text-align: left">-</td>
-      <td style="text-align: left">-</td>
+      <td>attack</td>
+      <td>hacker needs 51% control</td>
+      <td> </td>
+      <td>hacker needs 50% control</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
-      <td style="text-align: left">Probabilistic-finality</td>
-      <td style="text-align: left">Probabilistic-finality</td>
-      <td style="text-align: left">-</td>
-      <td style="text-align: left">-</td>
-      <td style="text-align: left">-</td>
+      <td> </td>
+      <td>Probabilistic-finality</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
     </tr>
   </tbody>
 </table>
@@ -138,6 +234,8 @@
   <li>Federated Byzantine Agreement.</li>
   <li>Delegated Byzantine Fault Tolerance.</li>
 </ol>
+
+<p>NOTE: In order to update the comparison table, update this <a href="https://docs.google.com/spreadsheets/d/1s_W26XBQj7i3i53ursUYPIFt1m6Q0HNOoQxSmws3-YM/edit#gid=0">Google Sheets</a> and then use <a href="https://github.com/blockchain-d/sheetdown">sheetdown</a> to convert the google sheet into markdown.</p>
 
 
       <footer class="site-footer">
