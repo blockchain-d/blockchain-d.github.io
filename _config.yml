@@ -30,7 +30,7 @@ repository: blockchain-d/blockchain-d.github.io
 discord: https://discord.gg/Pwth746wpU
 
 # Build settings
-theme: jekyll-theme-hacker
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
