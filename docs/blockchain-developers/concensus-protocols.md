@@ -2,7 +2,9 @@
 layout: default
 ---
 
-# 0. Articles on concensus algorithms
+# Concensus Protocols
+
+Some good articles on concensus protocols.
 
 1. [https://files.osf.io/v1/resources/8jxaq/providers/osfstorage/5c9ca949e0a7de001994abac?action=download&direct&version=1](https://files.osf.io/v1/resources/8jxaq/providers/osfstorage/5c9ca949e0a7de001994abac?action=download&direct&version=1)
 2. [https://res.mdpi.com/d_attachment/mathematics/mathematics-08-01782/article_deploy/mathematics-08-01782-v2.pdf](https://res.mdpi.com/d_attachment/mathematics/mathematics-08-01782/article_deploy/mathematics-08-01782-v2.pdf)
