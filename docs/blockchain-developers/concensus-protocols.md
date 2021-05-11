@@ -4,6 +4,13 @@ layout: default
 
 # Concensus Protocols
 
+”blockchain is a trustless distributed ledger which allows transactions to take place in a decen- tralized manner”. To establish any kind of trust within such networks, the nodes need to reach consensus on which blocks containing transactions are accepted into the distributed ledger.
+
+There are broadly two types of concensus algorithms:
+
+1. Proof based
+2. Byzantine Fault tolerance based
+
 Some good articles on concensus protocols.
 
 1. [https://files.osf.io/v1/resources/8jxaq/providers/osfstorage/5c9ca949e0a7de001994abac?action=download&direct&version=1](https://files.osf.io/v1/resources/8jxaq/providers/osfstorage/5c9ca949e0a7de001994abac?action=download&direct&version=1)
@@ -12,7 +19,7 @@ Some good articles on concensus protocols.
 
 
 
-# 1. A Non Comprehensive table of comparison amongst concensus protocols
+# 1. A comparison amongst common concensus protocols
 
 
 | PoWork          | PoStake | PoSpace | PoElapsed Time   | PoHistory  |
@@ -40,3 +47,5 @@ Some good articles on concensus protocols.
 11. PoWeight
 12. [Proof of Person](https://docs.idena.io/docs/wp/technology#proof-of-personhood), [Wikipedia](https://en.wikipedia.org/wiki/Proof_of_personhood), [Other notes](https://gist.github.com/resilience-me/f690d50eecb6ca7b5fdf1e4c49cca0e1)
 13. [Proof of Person Work](https://eprint.iacr.org/2016/145.pdf)
+14. Federated Byzantine Agreement.
+15. Delegated Byzantine Fault Tolerance.
