@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: BL0CKCHA1N-d
+title: The Black Book of Blockchain
 email: https://discord.gg/Pwth746wpU
 description: >- # this means to ignore newlines until "baseurl:"
-  Copyleft. 2021. MIT License.
+  A blockchain developer's best resource
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
