@@ -6,19 +6,19 @@
     <meta charset="UTF-8">
 
 <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Solana Developer’s Guide | The Black Book of Blockchain</title>
+<title>Ethereum Developer’s Guide | The Black Book of Blockchain</title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Solana Developer’s Guide" />
+<meta property="og:title" content="Ethereum Developer’s Guide" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A blockchain developer’s best resource" />
 <meta property="og:description" content="A blockchain developer’s best resource" />
-<link rel="canonical" href="http://localhost:4000/docs/decentralised-app-developers-guide/solana-developers-guide.html" />
-<meta property="og:url" content="http://localhost:4000/docs/decentralised-app-developers-guide/solana-developers-guide.html" />
+<link rel="canonical" href="http://localhost:4000/docs/decentralised-app-developers-guide/ethereum-developers-guide.html" />
+<meta property="og:url" content="http://localhost:4000/docs/decentralised-app-developers-guide/ethereum-developers-guide.html" />
 <meta property="og:site_name" content="The Black Book of Blockchain" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Solana Developer’s Guide" />
+<meta property="twitter:title" content="Ethereum Developer’s Guide" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/docs/decentralised-app-developers-guide/solana-developers-guide.html","description":"A blockchain developer’s best resource","@type":"WebPage","headline":"Solana Developer’s Guide","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/docs/decentralised-app-developers-guide/ethereum-developers-guide.html","description":"A blockchain developer’s best resource","@type":"WebPage","headline":"Ethereum Developer’s Guide","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -32,7 +32,7 @@
     <!-- <a id="skip-to-content" href="#content">Skip to the content.</a> -->
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">Solana Developer’s Guide</h1>
+      <h1 class="project-name">Ethereum Developer’s Guide</h1>
       <h2 class="project-tagline">A blockchain developer's best resource</h2>
       <a href="/" class="btn">Homepage</a>
       <a href="https://discord.gg/Pwth746wpU" class="btn">Join our Discord</a>
@@ -43,13 +43,13 @@
     </header>
 
     <main id="content" class="main-content" role="main">
-      <h1 id="solana-developers-guide">Solana Developer’s Guide</h1>
+      <h1 id="ethereum-developers-guide">Ethereum Developer’s Guide</h1>
 
 <p>Table of contents</p>
 <ul id="markdown-toc">
-  <li><a href="#solana-developers-guide" id="markdown-toc-solana-developers-guide">Solana Developer’s Guide</a></li>
+  <li><a href="#ethereum-developers-guide" id="markdown-toc-ethereum-developers-guide">Ethereum Developer’s Guide</a></li>
   <li><a href="#prerequisites" id="markdown-toc-prerequisites">Prerequisites</a>    <ul>
-      <li><a href="#solana" id="markdown-toc-solana">Solana</a></li>
+      <li><a href="#ethereum" id="markdown-toc-ethereum">Ethereum</a></li>
       <li><a href="#programming-languages" id="markdown-toc-programming-languages">Programming Languages</a></li>
     </ul>
   </li>
@@ -79,19 +79,19 @@
       <li><a href="#upgrading-contracts" id="markdown-toc-upgrading-contracts">Upgrading contracts</a></li>
     </ul>
   </li>
-  <li><a href="#interesting-programs" id="markdown-toc-interesting-programs">Interesting Programs</a></li>
+  <li><a href="#interesting-interfaces" id="markdown-toc-interesting-interfaces">Interesting Interfaces</a>    <ul>
+      <li><a href="#erc20-fungible-token" id="markdown-toc-erc20-fungible-token">ERC20 (Fungible Token)</a></li>
+      <li><a href="#erc721-non-fungible-token" id="markdown-toc-erc721-non-fungible-token">ERC721 (Non Fungible Token)</a></li>
+    </ul>
+  </li>
   <li><a href="#other-useful-links" id="markdown-toc-other-useful-links">Other useful links</a></li>
 </ul>
 
 <h1 id="prerequisites">Prerequisites</h1>
 
-<h2 id="solana">Solana</h2>
+<h2 id="ethereum">Ethereum</h2>
 
 <h2 id="programming-languages">Programming Languages</h2>
-
-<ol>
-  <li><a href="https://doc.rust-lang.org/book/title-page.html">Rust Book</a></li>
-</ol>
 
 <h1 id="online-resources">Online resources</h1>
 
@@ -99,25 +99,19 @@
 
 <h2 id="learning-with-practise">Learning with practise</h2>
 
+<ul>
+  <li><a href="https://cryptozombies.io">Cryptozombies.io</a></li>
+</ul>
+
 <h2 id="learning-with-people">Learning with people</h2>
 
 <ul>
   <li>StackOverflow</li>
+  <li>OpenZeppelin forum</li>
+  <li>Ethereum Gitters</li>
 </ul>
 
 <h1 id="setting-up-development-environment">Setting up development environment</h1>
-
-<ol>
-  <li><a href="https://docs.solana.com/cli/install-solana-cli-tools">Solana Tool Suite</a></li>
-  <li><a href="https://solongwallet.medium.com/solana-development-tutorial-things-you-should-know-before-structuring-your-code-807f0e2ee43">Solana Development Tutorial</a></li>
-  <li><a href="https://serum-academy.com/en/">Serum Academy</a> The goal of Serum Academy is to teach people how to use Serum ecosystem and build projects on Solana and Serum.</li>
-  <li><a href="https://github.com/solana-labs/solana-program-library/tree/master/examples">Examples using SPL</a></li>
-  <li><a href="https://docs.rs/solana-sdk/1.6.8/solana_sdk/">Rust SDK</a> <a href="https://github.com/solana-labs/solana/tree/master/sdk">Github</a></li>
-  <li><a href="https://github.com/solana-labs/solana/tree/master/sdk/docker-solana">Docker Minimal</a></li>
-  <li><a href="https://paulx.dev/blog/2021/01/14/programming-on-solana-an-introduction/#entrypoint-rs-programs-and-accounts">Rust Programming on Solana</a></li>
-  <li><a href="https://rustinblockchain.org">Rust In Blockchain</a></li>
-  <li><a href="https://brson.github.io/blog/index.html">brson’s blog</a></li>
-</ol>
 
 <h2 id="hardware">Hardware</h2>
 
@@ -128,14 +122,6 @@
 <h1 id="development">Development</h1>
 
 <h2 id="writing-contracts">Writing contracts</h2>
-
-<ol>
-  <li>On Chain programs can be written in C, Rust and are compiled by LLVM. JS Bindings are available for most of the programs provided by Solana for common use cases.</li>
-  <li><a href="https://docs.solana.com/developing/on-chain-programs/developing-rust">Developing with Rust</a></li>
-  <li><a href="https://docs.solana.com/developing/on-chain-programs/developing-c">Developing with C</a></li>
-  <li>Solana Python SDK <a href="https://github.com/michaelhly/solana-py">solana-py</a></li>
-  <li>Solana JavaScript API <a href="https://github.com/solana-labs/solana-web3.js">solana-web3.js</a></li>
-</ol>
 
 <h3 id="design-patterns">Design Patterns</h3>
 
@@ -149,26 +135,13 @@
 
 <h2 id="upgrading-contracts">Upgrading contracts</h2>
 
-<h1 id="interesting-programs">Interesting Programs</h1>
+<h1 id="interesting-interfaces">Interesting Interfaces</h1>
 
-<ol>
-  <li>Solana Programs Library (SPL) - The Solana Program Library (SPL) is a collection of on-chain programs targeting the Sealevel parallel runtime. These programs are tested against Solana’s implementation of Sealevel, solana-runtime, and deployed to its mainnet.<a href="https://docs.rs/solana-program/1.4.17/solana_program/index.html">API Docs</a> <a href="https://spl.solana.com">Developer Doc</a>
-    <ol>
-      <li>Token Program <a href="https://spl.solana.com/token">Developer Doc</a> - This is the most interesting program. This is where you can create, mint, transfer, delegate and do all the “core” stuff. This is implemented as <a href="https://docs.rs/spl-token/3.0.1/spl_token/index.html">SPL Token</a>, which is an ERC20-like Token program for the Solana blockchain  <a href="https://github.com/solana-labs/solana-program-library/tree/master/token">Source Code</a> <a href="https://github.com/solana-labs/solana-program-library/blob/master/token/js/client/token.js">JS Lib</a>
-        <ol>
-          <li><a href="https://spl.solana.com/token#non-fungible-tokens">Non Fungible Token</a> - An NTF is simply a token type where only a single token has been minted. <a href="https://spl.solana.com/token#example-create-a-non-fungible-token">Creating NFTs</a></li>
-        </ol>
-      </li>
-      <li>Name Service - <a href="https://spl.solana.com/name-service">Developer Doc</a> - This is another interesting service for issuing and managing ownership of: domain names, Solana Pubkeys, URLs, twitter handles, ipfs cid’s etc. <a href="https://github.com/solana-labs/solana-program-library/tree/master/name-service">Source Code</a> <a href="https://github.com/solana-labs/solana-program-library/blob/master/name-service/js/src/bindings.ts">JS Binding</a></li>
-    </ol>
-  </li>
-</ol>
+<h2 id="erc20-fungible-token">ERC20 (Fungible Token)</h2>
+
+<h2 id="erc721-non-fungible-token">ERC721 (Non Fungible Token)</h2>
 
 <h1 id="other-useful-links">Other useful links</h1>
-
-<ol>
-  <li><a href="https://github.com/certusone/wormhole">Wormhole</a> (ETH - SOL bridge) <a href="https://medium.com/certus-one/introducing-the-wormhole-bridge-24911b7335f7">Medium Blog Post</a></li>
-</ol>
 
 
       <footer class="site-footer">

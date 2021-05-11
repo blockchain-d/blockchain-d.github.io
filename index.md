@@ -10,9 +10,11 @@ layout: default
   - [types of blockchains](docs/1-blockchains-so-far.md)
   - [ipfs](docs/2-ipfs.md)
   - economics terms 101
-  - jobs? career?
-- bl0ckchain developers
+  - career
+- blockchain developers
   - [Concensous Protocols](docs/blockchain-developers/concensus-protocols.md)
-- Decentralised Apps developers
-  - Ethereum (Solidity, JS)
+  - networking protocols
+- decentralised app developers
+  - [Common Concepts](docs/decentralised-app-developers-guide/common-concepts.md)
+  - [Ethereum (Solidity, JS)](docs/decentralised-app-developers-guide/ethereum-developers-guide.md)
   - [Solana (Rust, C, JS)](docs/decentralised-app-developers-guide/solana-developers-guide.md)
