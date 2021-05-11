@@ -42,12 +42,24 @@
       {{ content }}
 
       <footer class="site-footer">
-        {% if site.github.is_project_page %}
+        
           <span class="site-footer-owner">
-              <a href="{{ site.url }}">{{ site.title }} </a>{{ site.title }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>. This is a community effort and we try our best to do provide correct and updated information here. In case you notice an issue, please report it on <a href="https://github.com/blockchain-d/blockchain-d.github.io/issues">github issues</a>.</span>
-        {% endif %}
-        <span class="site-footer-credits">Hosted on GitHub Pages.</span>
+              <a href="{{ site.url }}">{{ site.title }} </a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>. 
+              This is a community effort and we try our best to do provide correct and updated information here. 
+              In case you notice an issue, 
+              please report it on 
+              <a href="https://github.com/blockchain-d/blockchain-d.github.io/issues">github issues</a>. 
+              You can contribute by 
+              <a href="https://github.com/{{ site.repository }}/fork">forking it</a> 
+              and 
+              <a href="https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request">raise a PR</a>
+              with correction.
+          </span>
+        <p ></p>
+        <span class="site-footer-credits">Checkout the <a href="https://github.com/{{ site.repository }}">Github repo for the book.</a></span>
+        <p />
         <span class="site-footer-credits">Copyleft. 2021. All content under MIT License.</span>
+        <span class="site-footer-credits">Hosted on <a href="https://pages.github.com">GitHub Pages.</a> </span>
       </footer>
     </main>
   </body>
