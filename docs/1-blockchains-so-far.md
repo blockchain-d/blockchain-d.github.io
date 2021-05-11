@@ -2,7 +2,11 @@
 layout: default
 ---
 
-# 0. A Non Comprehensive list of blockchains
+Table of contents
+* TOC
+{:toc}
+
+# A Non Comprehensive list of blockchains
 
 ## Bitcoin
 
@@ -37,7 +41,7 @@ layout: default
 
 ## Onflow
 
-# 1. A Non Comprehensive table of comparison amongst blockchains
+# A Non Comprehensive table of comparison amongst blockchains
 
 
 | Property        | Bitcoin          | Ethereum | Solana |

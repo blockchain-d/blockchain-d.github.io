@@ -2,6 +2,10 @@
 layout: default
 ---
 
+Table of contents
+* TOC
+{:toc}
+
 On Chain programs can be written in C, Rust and are compiled by LLVM. JS Bindings are available for most of the programs provided by Solana for common use cases.
 
 # Dev Setup & Tutorials

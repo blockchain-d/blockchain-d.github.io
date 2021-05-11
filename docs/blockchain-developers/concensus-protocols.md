@@ -2,6 +2,10 @@
 layout: default
 ---
 
+Table of contents
+* TOC
+{:toc}
+
 # Concensus Protocols
 
 ”blockchain is a trustless distributed ledger which allows transactions to take place in a decen- tralized manner”. To establish any kind of trust within such networks, the nodes need to reach consensus on which blocks containing transactions are accepted into the distributed ledger.
@@ -19,7 +23,7 @@ Some good articles on concensus protocols.
 
 
 
-# 1. A comparison amongst common concensus protocols
+# A comparison amongst common concensus protocols
 
 
 | PoWork          | PoStake | PoSpace | PoElapsed Time   | PoHistory  |
