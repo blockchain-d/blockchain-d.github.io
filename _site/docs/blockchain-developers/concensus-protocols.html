@@ -26,7 +26,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=43be1470bc2be2241f93383ba0f3ba254dbef431">
+    <link rel="stylesheet" href="/assets/css/style.css?v=25adcd4fd921396f89a796734b2518fda8c9e967">
   </head>
   <body>
     <!-- <a id="skip-to-content" href="#content">Skip to the content.</a> -->
@@ -46,7 +46,39 @@
       <p>Table of contents</p>
 <ul id="markdown-toc">
   <li><a href="#concensus-protocols" id="markdown-toc-concensus-protocols">Concensus Protocols</a></li>
-  <li><a href="#interesting-concensus-algorithms" id="markdown-toc-interesting-concensus-algorithms">Interesting Concensus Algorithms</a></li>
+  <li><a href="#interesting-concensus-algorithms" id="markdown-toc-interesting-concensus-algorithms">Interesting Concensus Algorithms</a>    <ul>
+      <li><a href="#proof-of-work" id="markdown-toc-proof-of-work">Proof of Work</a>        <ul>
+          <li><a href="#delayed-proof-of-work" id="markdown-toc-delayed-proof-of-work">Delayed Proof of Work</a></li>
+        </ul>
+      </li>
+      <li><a href="#proof-of-stake" id="markdown-toc-proof-of-stake">Proof of Stake</a>        <ul>
+          <li><a href="#delegated-proof-of-stake" id="markdown-toc-delegated-proof-of-stake">Delegated Proof of Stake</a></li>
+          <li><a href="#leased-proof-of-stake" id="markdown-toc-leased-proof-of-stake">Leased Proof of Stake</a></li>
+          <li><a href="#hybrid-powpos" id="markdown-toc-hybrid-powpos">Hybrid PoW/PoS</a></li>
+        </ul>
+      </li>
+      <li><a href="#proof-of-space" id="markdown-toc-proof-of-space">Proof of Space</a></li>
+      <li><a href="#proof-of-elapsed-time" id="markdown-toc-proof-of-elapsed-time">Proof of Elapsed Time</a></li>
+      <li><a href="#proof-of-history" id="markdown-toc-proof-of-history">Proof of History</a></li>
+      <li><a href="#proof-of-authority" id="markdown-toc-proof-of-authority">Proof of Authority</a></li>
+      <li><a href="#proof-of-burn" id="markdown-toc-proof-of-burn">Proof of Burn</a>        <ul>
+          <li><a href="#sieve" id="markdown-toc-sieve">Sieve</a></li>
+        </ul>
+      </li>
+      <li><a href="#proof-of-weight" id="markdown-toc-proof-of-weight">Proof of Weight</a></li>
+      <li><a href="#proof-of-personhood" id="markdown-toc-proof-of-personhood">Proof of personhood</a></li>
+      <li><a href="#proof-of-person-work" id="markdown-toc-proof-of-person-work">Proof of person work</a></li>
+      <li><a href="#byzantine-fault-tolerance" id="markdown-toc-byzantine-fault-tolerance">Byzantine Fault Tolerance</a>        <ul>
+          <li><a href="#practical-byzantine-fault-tolerance" id="markdown-toc-practical-byzantine-fault-tolerance">Practical Byzantine Fault Tolerance</a>            <ul>
+              <li><a href="#ripple" id="markdown-toc-ripple">Ripple</a></li>
+            </ul>
+          </li>
+          <li><a href="#federated-byzantine-agreement" id="markdown-toc-federated-byzantine-agreement">Federated Byzantine Agreement.</a></li>
+          <li><a href="#delegated-byzantine-fault-tolerance" id="markdown-toc-delegated-byzantine-fault-tolerance">Delegated Byzantine Fault Tolerance.</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
   <li><a href="#tabular-comparison-of-concensus-protocols" id="markdown-toc-tabular-comparison-of-concensus-protocols">Tabular comparison of concensus protocols</a></li>
 </ul>
 
@@ -70,25 +102,58 @@
 
 <h1 id="interesting-concensus-algorithms">Interesting Concensus Algorithms</h1>
 
-<ol>
-  <li><a href="https://academy.binance.com/en/articles/proof-of-authority-explained">PoAuthority</a></li>
-  <li><a href="https://academy.binance.com/en/articles/delegated-proof-of-stake-explained">Delegated PoStake</a></li>
-  <li>Byzantine Fault Tolerance</li>
-  <li>Practical Byzantine Fault Tolerance</li>
-  <li>Ripple</li>
-  <li><a href="https://academy.binance.com/en/articles/delayed-proof-of-work-explained">Delayed PoWork</a></li>
-  <li><a href="https://academy.binance.com/en/articles/leased-proof-of-stake-consensus-explained">Leased PoStake</a></li>
-  <li><a href="https://academy.binance.com/en/articles/proof-of-burn-explained">PoBurn</a></li>
-  <li><a href="https://academy.binance.com/en/articles/hybrid-pow-pos-consensus-explained">Hybrid PoW/PoS</a></li>
-  <li>Sieve</li>
-  <li>PoWeight</li>
-  <li><a href="https://docs.idena.io/docs/wp/technology#proof-of-personhood">Proof of Person</a>, <a href="https://en.wikipedia.org/wiki/Proof_of_personhood">Wikipedia</a>, <a href="https://gist.github.com/resilience-me/f690d50eecb6ca7b5fdf1e4c49cca0e1">Other notes</a></li>
-  <li><a href="https://eprint.iacr.org/2016/145.pdf">Proof of Person Work</a></li>
-  <li>Federated Byzantine Agreement.</li>
-  <li>Delegated Byzantine Fault Tolerance.</li>
-  <li>PoW</li>
-  <li>PoS</li>
-</ol>
+<h2 id="proof-of-work">Proof of Work</h2>
+
+<h3 id="delayed-proof-of-work">Delayed Proof of Work</h3>
+
+<p><a href="https://academy.binance.com/en/articles/delayed-proof-of-work-explained">Delayed PoWork</a></p>
+
+<h2 id="proof-of-stake">Proof of Stake</h2>
+
+<h3 id="delegated-proof-of-stake">Delegated Proof of Stake</h3>
+
+<p><a href="https://academy.binance.com/en/articles/delegated-proof-of-stake-explained">Delegated PoStake</a></p>
+
+<h3 id="leased-proof-of-stake">Leased Proof of Stake</h3>
+
+<p><a href="https://academy.binance.com/en/articles/leased-proof-of-stake-consensus-explained">Leased PoStake</a></p>
+
+<h3 id="hybrid-powpos">Hybrid PoW/PoS</h3>
+
+<p><a href="https://academy.binance.com/en/articles/hybrid-pow-pos-consensus-explained">Hybrid PoW/PoS</a></p>
+
+<h2 id="proof-of-space">Proof of Space</h2>
+
+<h2 id="proof-of-elapsed-time">Proof of Elapsed Time</h2>
+
+<h2 id="proof-of-history">Proof of History</h2>
+
+<h2 id="proof-of-authority">Proof of Authority</h2>
+<p><a href="https://academy.binance.com/en/articles/proof-of-authority-explained">PoAuthority</a></p>
+
+<h2 id="proof-of-burn">Proof of Burn</h2>
+
+<p><a href="https://academy.binance.com/en/articles/proof-of-burn-explained">PoBurn</a></p>
+
+<h3 id="sieve">Sieve</h3>
+
+<h2 id="proof-of-weight">Proof of Weight</h2>
+
+<h2 id="proof-of-personhood">Proof of personhood</h2>
+
+<p><a href="https://docs.idena.io/docs/wp/technology#proof-of-personhood">Proof of Person</a>, <a href="https://en.wikipedia.org/wiki/Proof_of_personhood">Wikipedia</a>, <a href="https://gist.github.com/resilience-me/f690d50eecb6ca7b5fdf1e4c49cca0e1">Other notes</a></p>
+
+<h2 id="proof-of-person-work">Proof of person work</h2>
+
+<p><a href="https://eprint.iacr.org/2016/145.pdf">Proof of Person Work</a></p>
+
+<h2 id="byzantine-fault-tolerance">Byzantine Fault Tolerance</h2>
+
+<h3 id="practical-byzantine-fault-tolerance">Practical Byzantine Fault Tolerance</h3>
+<h4 id="ripple">Ripple</h4>
+<h3 id="federated-byzantine-agreement">Federated Byzantine Agreement.</h3>
+
+<h3 id="delegated-byzantine-fault-tolerance">Delegated Byzantine Fault Tolerance.</h3>
 
 <h1 id="tabular-comparison-of-concensus-protocols">Tabular comparison of concensus protocols</h1>
 

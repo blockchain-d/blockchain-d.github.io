@@ -22,26 +22,60 @@ Some good articles on concensus protocols.
 
 # Interesting Concensus Algorithms
 
-1. [PoAuthority](https://academy.binance.com/en/articles/proof-of-authority-explained)
-2. [Delegated PoStake](https://academy.binance.com/en/articles/delegated-proof-of-stake-explained)
-3. Byzantine Fault Tolerance
-4. Practical Byzantine Fault Tolerance
-5. Ripple
-6. [Delayed PoWork](https://academy.binance.com/en/articles/delayed-proof-of-work-explained)
-7. [Leased PoStake](https://academy.binance.com/en/articles/leased-proof-of-stake-consensus-explained)
-8. [PoBurn](https://academy.binance.com/en/articles/proof-of-burn-explained)
-9. [Hybrid PoW/PoS](https://academy.binance.com/en/articles/hybrid-pow-pos-consensus-explained)
-10. Sieve
-11. PoWeight
-12. [Proof of Person](https://docs.idena.io/docs/wp/technology#proof-of-personhood), [Wikipedia](https://en.wikipedia.org/wiki/Proof_of_personhood), [Other notes](https://gist.github.com/resilience-me/f690d50eecb6ca7b5fdf1e4c49cca0e1)
-13. [Proof of Person Work](https://eprint.iacr.org/2016/145.pdf)
-14. Federated Byzantine Agreement.
-15. Delegated Byzantine Fault Tolerance.
-16. PoW
-17. PoS
+## Proof of Work
+
+### Delayed Proof of Work
+
+[Delayed PoWork](https://academy.binance.com/en/articles/delayed-proof-of-work-explained)
+
+## Proof of Stake
+
+### Delegated Proof of Stake
+
+[Delegated PoStake](https://academy.binance.com/en/articles/delegated-proof-of-stake-explained)
+
+### Leased Proof of Stake
+
+[Leased PoStake](https://academy.binance.com/en/articles/leased-proof-of-stake-consensus-explained)
+
+### Hybrid PoW/PoS
+
+[Hybrid PoW/PoS](https://academy.binance.com/en/articles/hybrid-pow-pos-consensus-explained)
+
+## Proof of Space
+
+## Proof of Elapsed Time
+
+## Proof of History
+
+## Proof of Authority
+[PoAuthority](https://academy.binance.com/en/articles/proof-of-authority-explained)
+
+## Proof of Burn
+
+[PoBurn](https://academy.binance.com/en/articles/proof-of-burn-explained)
 
 
+### Sieve
 
+## Proof of Weight
+
+## Proof of personhood
+
+[Proof of Person](https://docs.idena.io/docs/wp/technology#proof-of-personhood), [Wikipedia](https://en.wikipedia.org/wiki/Proof_of_personhood), [Other notes](https://gist.github.com/resilience-me/f690d50eecb6ca7b5fdf1e4c49cca0e1)
+
+## Proof of person work
+
+[Proof of Person Work](https://eprint.iacr.org/2016/145.pdf)
+
+
+## Byzantine Fault Tolerance
+
+### Practical Byzantine Fault Tolerance
+#### Ripple
+### Federated Byzantine Agreement.
+
+### Delegated Byzantine Fault Tolerance.
 
 
 # Tabular comparison of concensus protocols
