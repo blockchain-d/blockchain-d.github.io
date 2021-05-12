@@ -6,6 +6,11 @@ Table of contents
 * TOC
 {:toc}
 
+# Why is blockchain?
+
+- research started in 1990s
+- why was ethereum created
+
 # What is blockchain?
 
 > "Understanding blockchains is kind of difficult (personally, I’m still far away from understanding everything about it), but I consider understanding Git internals as a good way to understand merkle trees which definitely helps understanding a fundamental part about blockchains." - (poke, 305,575 rep on StackOverflow, https://stackoverflow.com/a/46195087/229341)
@@ -16,6 +21,30 @@ Table of contents
 
 1. [https://www.researchtrend.net/ijet/pdf/Comparisons%20of%20Blockchain%20based%20Consensus%20Algorithms%20for%20Security%20Aspects%20Mansi%20Bosamia%201617j2.pdf](https://www.researchtrend.net/ijet/pdf/Comparisons%20of%20Blockchain%20based%20Consensus%20Algorithms%20for%20Security%20Aspects%20Mansi%20Bosamia%201617j2.pdf)
 
+
+## Reference Architecture
+
+![Architecture of Ethereum Blockchain](../assets/images/ethereum_archi.png)
+
+### Network Layer
+
+### Concensus Layer
+
+### Data Layer
+
+### Application Layer
+
+## How does it work?
+
+# What sets a blockchain apart
+
+## from other "data bases"
+
+## from other "peer to peer" systems
+
+## from other "distributed systems"
+
+## from "git"
 
 # How do I get into blockchain development?
 
@@ -36,3 +65,5 @@ Similarly if you choose to build on Solana you will
 And similarly there are other chains with their own language. For ex Ziliqa has its own language.
 
 here are many choices available and depending on the current state of ecosystem; if you want to be a dApp developer one must be having solidity, Javascript a must (because ethereum is de facto choice at the moment). Solana is picking up so rust is also a good choice. However if you want to be a blockchain developer go and rust are your choices.
+
+# Is blockchain legal?
