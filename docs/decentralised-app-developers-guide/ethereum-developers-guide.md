@@ -9,14 +9,23 @@ Table of contents
 
 # Prerequisites
 
+- A general understaning of blockchain
+- Some programming experience
+
 ## Ethereum
 
 ## Programming Languages
+
+1. Blockchain - Go
+2. Smart Contracts - Solidity
+3. Test Cases - Solidity, Javascript
+4. dApps - Javascript
 
 # Online resources
 
 ## Core learning
 
+1. https://ethereum.org/en/developers/docs/
 
 ## Learning with practise
 
@@ -32,7 +41,18 @@ Table of contents
 
 ## Hardware
 
-## IDE
+## Tools
+
+You'll need the following "components". There are many "softwares" which can be used for each component
+
+1. Ethereum Client: This will be the blockchain that runs on your local system. It could be 
+   1. Ganache
+   2. Geth
+   3. Or any one of the supported.
+2. Block Explorer (Optional): Sometimes you will want block explorer to keep a track of transactions and 
+be able to search on them. There are many choices available. We've found Blockscout to be very powerful,
+and there are many others which are lightweight and simple.
+3. 
 
 ## Framework
 

@@ -67,7 +67,16 @@ Table of contents
 
 ## Deploying contracts
 
+In order to deploy, you will need to do these two things
+
+1. Create a SPL20 Token. This can be done by many means (a) using CLI (b) having a dApp to do this.
+2. Add your details to a token registry. This will let you add name, logo etc. This is done by adding details to [solana-labs/token-list](https://github.com/solana-labs/token-list) repo. The JSON Schema is
+that of Uniwswap and available [https://uniswap.org/tokenlist.schema.json](https://uniswap.org/tokenlist.schema.json)
+
+
 ## Upgrading contracts
+
+At the time of writing, there is no possibility of upgrades, however Solana dev team is working on it.
 
 # Interesting Programs
 

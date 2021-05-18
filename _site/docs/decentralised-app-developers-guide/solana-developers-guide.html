@@ -26,7 +26,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=241825a76b29416c7e4b21c9fe394e6d84117e67">
+    <link rel="stylesheet" href="/assets/css/style.css?v=0dce7ce944fe544e44e2eab58afe4d3ca903ef1d">
   </head>
   <body>
     <!-- <a id="skip-to-content" href="#content">Skip to the content.</a> -->
@@ -147,7 +147,17 @@
 
 <h2 id="deploying-contracts">Deploying contracts</h2>
 
+<p>In order to deploy, you will need to do these two things</p>
+
+<ol>
+  <li>Create a SPL20 Token. This can be done by many means (a) using CLI (b) having a dApp to do this.</li>
+  <li>Add your details to a token registry. This will let you add name, logo etc. This is done by adding details to <a href="https://github.com/solana-labs/token-list">solana-labs/token-list</a> repo. The JSON Schema is
+that of Uniwswap and available <a href="https://uniswap.org/tokenlist.schema.json">https://uniswap.org/tokenlist.schema.json</a></li>
+</ol>
+
 <h2 id="upgrading-contracts">Upgrading contracts</h2>
+
+<p>At the time of writing, there is no possibility of upgrades, however Solana dev team is working on it.</p>
 
 <h1 id="interesting-programs">Interesting Programs</h1>
 
