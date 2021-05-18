@@ -50,9 +50,10 @@ You'll need the following "components". There are many "softwares" which can be 
    2. Geth
    3. Or any one of the supported.
 2. Block Explorer (Optional): Sometimes you will want block explorer to keep a track of transactions and 
-be able to search on them. There are many choices available. We've found Blockscout to be very powerful,
-and there are many others which are lightweight and simple.
-3. 
+be able to search on them. There are many choices available. We've found [Blockscout](https://github.com/blockscout/blockscout) to be very powerful, and there are others like [zulhfreelancer/explorer](https://github.com/zulhfreelancer/explorer) which are lightweight and simple.
+3. IDE: You'll need at least the following:
+    1. Remix: Its available online at [https://remix.ethereum.org](https://remix.ethereum.org) and also as a desktop app. The online works better because it can integrate with MetaMask and use it as wallet.
+    2. Visual Studio Code: There are a lot of other things like testing, building JS Bindings etc that will require a full featured editor like this. There are again, many options.
 
 ## Framework
 
